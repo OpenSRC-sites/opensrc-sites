@@ -2,7 +2,7 @@ function loginWithGitHub() {
     // Replace with your GitHub OAuth App details
     const clientId = '2b3625c2bd71538e9587';
     const clientSecret = '79522918c2f2783e4f5858bdcfdaa5d1a070e5ae';
-    const redirectUri = 'https://opensrc-sites.vercel.app/login.html';
+    const redirectUri = 'https://opensrc-sites.vercel.app/index.html';
     const githubLoginUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&client_secret=${clientSecret}&redirect_uri=${redirectUri}&scope=user`;
 
     // Open GitHub login popup
